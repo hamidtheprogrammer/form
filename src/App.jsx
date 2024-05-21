@@ -4,7 +4,7 @@ import About from "./components/About";
 
 const App = () => {
   return (
-    <div className="relative app w-[100%] h-[100%] ">
+    <div className="relative w-[100%] h-[100%] ">
       <div className="line_container">
         <div className="separator"></div>
         <div className="separator"></div>
