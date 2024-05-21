@@ -9,9 +9,10 @@ const Video = () => {
     });
 
     function animateVideo() {
-      const { bottom } = video.getBoundingClientRect();
-      let scale = 1 - (bottom - window.innerHeight) * 0.0005;
-      scale = scale < 0.5 ? 0.5 : scale > 1 ? 1 : scale;
+      const { top, bottom } = videoSection.getBoundingClientRect();
+      let scale = 1 - (bottom - window.innerHeight) * 0.0004;
+      //   console.log(bottom);
+      scale = scale < 0.2 ? 0.2 : scale > 1 ? 1 : scale;
 
       video.style.transform = `scale(${scale})`;
     }
