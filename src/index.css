@@ -43,7 +43,7 @@ body {
   left: 50%;
   transform: translate(-50%);
   max-width: var(--max-width);
-  border: 1px solid red;
+
   height: 100%;
   overflow: hidden;
 }
@@ -122,10 +122,11 @@ section {
 
 .about_text {
   width: 45%;
+  min-width: 370px;
   text-align: center;
   margin: auto;
   text-transform: uppercase;
   text-wrap: balance;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   letter-spacing: -0.05em;
 }
