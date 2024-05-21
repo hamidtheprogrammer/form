@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Video from "./components/Video";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <main className="relative">
         <Hero />
         <About />
+        <Video />
       </main>
     </div>
   );
