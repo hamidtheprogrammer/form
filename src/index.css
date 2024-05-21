@@ -126,4 +126,6 @@ section {
   margin: auto;
   text-transform: uppercase;
   text-wrap: balance;
+  font-size: 1.4rem;
+  letter-spacing: -0.05em;
 }
